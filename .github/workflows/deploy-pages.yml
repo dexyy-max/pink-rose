@@ -25,7 +25,7 @@ jobs:
       - name: Upload artifact (public directory)
         uses: actions/upload-pages-artifact@v3
         with:
-          path: rose/public
+          path: public
 
   deploy:
     needs: build
